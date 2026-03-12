@@ -2,6 +2,7 @@
 #include <stdbool.h>
 
 int main(){
+    //     DADOS DE USUÁRIO.
     
     int idade = 0;
     float media = 0.0;
@@ -47,5 +48,6 @@ int main(){
     printf("%d\n", genero);
     
     return 0;
+
 
 }
