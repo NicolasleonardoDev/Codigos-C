@@ -19,8 +19,6 @@ int main(){
     scanf(" %f", &nota);
 
 
-
-
     printf("%d\n", idade); 
     printf("%.2f\n", media);
     printf("%.1f\n", nota);
