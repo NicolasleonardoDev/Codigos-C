@@ -1,26 +1,30 @@
 #include <stdio.h> 
 #include <stdbool.h>
+#include <string.h>
 
 int main(){
     //     DADOS DE USUÁRIO.
-    //     USUÁRIOS COM DADOS COMPLETAMENTE SEGUROS.
-    
+    //     USUÁRIOS COM DADOS COMPLETAMENTE SEGUROS
+
     int idade = 0;
     float media = 0.0;
     float nota = 0;
-    char nome [30] = "";
+    char nome [100] = "";
     int genero;
     char email [100] = "";
     
-    printf("Escreva seu nome: ");
-    scanf(" %s", &nome);
+
+    printf("Escreva seu nome completo: \n");
+    fgets(nome, sizeof(nome), stdin);
+    nome[strlen(nome) - 1] = '\0';
+
 
     printf("Coloque sua idade: ");
     scanf("%d", &idade);
       
 
     printf("Coloque sua media: ");
-    scanf(" %f", &media);
+    scanf("%f", &media);
     
 
     printf("Coloque a sua nota: ");
@@ -49,7 +53,7 @@ int main(){
 
         printf("nao binario\n");
     }
-    else if(genero = 3){
+    else if(genero == 3){
 
         printf("nao quero me identificar\n");
     }
