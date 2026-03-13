@@ -3,8 +3,8 @@
 #include <string.h>
 
 int main(){
-    //     DADOS DE USUÁRIO.
-    //     USUÁRIOS COM DADOS COMPLETAMENTE SEGUROS
+    //     DADOS DE USUÃRIO.
+    //     USUÃRIOS COM DADOS COMPLETAMENTE SEGUROS
 
     int idade = 0;
     float media = 0.0;
@@ -35,7 +35,7 @@ int main(){
     scanf(" %s", &email);
     
 
-    printf("Se voce e homem (1 = sim, 0 = nao, 2 = nao binario e 3 = nao quero me identiicar): ");
+    printf("Se voce e homem (0 = nao, 1 = sim, 2 = nao binario e 3 = nao quero me identiicar): ");
     scanf(" %d", &genero);
 
     
