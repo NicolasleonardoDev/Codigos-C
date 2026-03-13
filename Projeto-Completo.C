@@ -3,8 +3,8 @@
 #include <string.h>
 
 int main(){
-    //     DADOS DE USUÃRIO.
-    //     USUÃRIOS COM DADOS COMPLETAMENTE SEGUROS
+    //     DADOS DE USUARIO.
+    //     USUARIOS COM DADOS COMPLETAMENTE SEGUROS
 
     int idade = 0;
     float media = 0.0;
