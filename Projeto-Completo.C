@@ -10,6 +10,7 @@ int main(){
     float nota = 0;
     char nome [30] = "";
     int genero;
+    char email [100] = "";
     
     printf("Escreva seu nome: ");
     scanf(" %s", &nome);
@@ -25,8 +26,15 @@ int main(){
     printf("Coloque a sua nota: ");
     scanf(" %f", &nota);
 
-    printf("Se voce e homem (1 = sim ou 0 = nao): ");
+   
+    printf("Informe o seu email: ");
+    scanf(" %s", &email);
+    
+
+    printf("Se voce e homem (1 = sim, 0 = nao, 2 = nao binario e 3 = nao quero me identiicar): ");
     scanf(" %d", &genero);
+
+    
 
     if(genero == 1){
 
@@ -37,16 +45,28 @@ int main(){
 
         printf("mulher\n");
     }
+    else if(genero == 2){
+
+        printf("nao binario\n");
+    }
+    else if(genero = 3){
+
+        printf("nao quero me identificar\n");
+    }
     else{
 
-        printf("opcao invalida\n");
+        printf("Opcao invalida\n");
     }
-    
+
+
+
     printf("%s\n", nome);
     printf("%d\n", idade); 
     printf("%.1f\n", media);
     printf("%.1f\n", nota);
+    printf("%s\n", email);
     printf("%d\n", genero);
+    
     
     return 0;
 
