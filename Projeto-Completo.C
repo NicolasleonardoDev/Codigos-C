@@ -5,6 +5,9 @@
 int main(){
     //     DADOS DE USUARIO.
     //     USUARIOS COM DADOS COMPLETAMENTE SEGUROS
+    
+
+
 
     int idade = 0;
     float media = 0.0;
