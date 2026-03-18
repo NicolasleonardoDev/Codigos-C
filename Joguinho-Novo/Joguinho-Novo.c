@@ -18,7 +18,7 @@ char adjetivo1[50] = "";
 char adjetivo2[50] = "";
 char adjetivo3[50] = "";
 
-printf("Escolha um local(de sua preferencia): \n");
+printf("Escolha um local (de sua preferencia): \n");
 fgets(lugar, sizeof(lugar), stdin);
 lugar[strlen(lugar) - 1] = '\0';
 
