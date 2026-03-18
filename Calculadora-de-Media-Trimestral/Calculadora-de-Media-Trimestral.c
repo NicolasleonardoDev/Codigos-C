@@ -4,7 +4,7 @@
 // Calculadora de media trimestral
 
 int main(){
-   
+   // 
     float n1, n2, n3, media;
 
     printf("Digite suas 3 notas do trimestre: \n");
