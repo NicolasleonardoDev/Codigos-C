@@ -16,15 +16,15 @@ int main(){
 
     if(media >= 7){
 
-        printf("APROVADO! \n");
+        printf("APROVADO!\n");
     
     } else if(media >= 5 ){
 
-        printf("RECUPERAÇÃO! \n");
+        printf("RECUPERAÇÃO!\n");
 
     } else {
 
-        printf("REPROVADO! \n");
+        printf("REPROVADO!\n");
     }
 
     return  0;
