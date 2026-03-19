@@ -20,4 +20,7 @@ int main(){
 
     montante = capital * pow(1 + taxaDoJuros, tempo);
      printf("Montante e: R$%.2lf\n", montante);
+
+
+     return 0;
 }
