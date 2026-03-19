@@ -31,7 +31,7 @@
 
     int main(){
 
-        // opcional = setlocale(LC_ALL, "Portuguese");
+        // opcional = setlocale(LC_ALL, "Portuguese"); Pra poder codar com acento, alguns so ne mas fazer oq
 
 
         int opcao;
