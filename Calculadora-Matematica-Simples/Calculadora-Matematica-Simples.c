@@ -31,7 +31,7 @@
 
     int main(){
 
-        // opcional = setlocale(LC_ALL, "Portuguese"); Pra poder codar com acento, alguns so ne mas fazer oq
+        // opcional = setlocale(LC_ALL, "Portuguese"); Pra poder codar com acento, alguns so ne mas fazer oq ne rs
 
 
         int opcao;
@@ -115,7 +115,7 @@
                    } else {
                        printf("Erro: Nao existe raiz real desse numero!\n");
                    }
-                break;
+                   break;
 
                 case 0: // sair
                    printf("Saindo...\n");
