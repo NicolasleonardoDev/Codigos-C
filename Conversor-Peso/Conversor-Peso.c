@@ -14,7 +14,7 @@ void limpar_buffer() {
     printf("\n ");
     printf("                      *******************\n");
     printf("                        CONVERSOS DE PESO\n");
-    printf("                      *******************\n");
+    printf("                       *******************\n");
     printf("\n");
 
     printf("Conversoes disponiveis\n");
